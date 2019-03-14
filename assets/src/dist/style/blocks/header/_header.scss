@@ -1,0 +1,50 @@
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	&__tel {
+		font-weight: bold;
+		color: white;
+		font-size: 1rem;
+		letter-spacing: 1px;
+		&:hover,
+		&:focus {
+			color: #eac253;
+			text-decoration: none;
+
+		}
+	}
+
+	&_secondary {
+		position: relative;
+		background-image: url(../img/main-banner-bg-img-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+}
+
+.header-navbar {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	&__itm {
+
+	}
+	&__link {
+		color: white;
+		font-style: italic;
+		padding: 0.75rem 0.875rem;
+		&:hover,
+		&:focus {
+			color: #eac253;
+			text-decoration: none;
+
+		}
+	}
+}
+
+@import "header-mediaqueries";

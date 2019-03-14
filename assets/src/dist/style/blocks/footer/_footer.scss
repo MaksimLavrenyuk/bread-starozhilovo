@@ -1,0 +1,42 @@
+.footer {
+	background-color: #341b00;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	font-size: 0.75rem;
+	color: #efecec;
+	a {
+		color: #efecec;
+		&:hover,
+		&:focus {
+			color: lighten($link-hover-color, 25%);
+		}
+	}
+}
+
+.footer-menu {
+	color: #efecec;
+	&__title {
+		font-size: 0.875rem;
+		color: #efecec;
+		font-style: italic;
+		white-space: nowrap;
+		margin-bottom: 1.25rem;
+	}
+	&__list {
+		font-size: 0.875rem;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li {
+			margin-bottom: 0.25rem;
+		}
+		a {
+			color: #efecec;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+@import "footer-mediaqueries";

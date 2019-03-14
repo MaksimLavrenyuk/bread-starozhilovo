@@ -1,0 +1,14 @@
+@media (max-width: $screen-width-lg) {
+	.header-navbar {
+		display: none;
+	}
+}
+
+@media (max-width: $screen-width-xs) {
+	.header {
+		&__tel {
+			font-size: 0.875rem;
+			letter-spacing: normal;
+		}
+	}
+}

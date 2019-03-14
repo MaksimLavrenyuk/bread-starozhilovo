@@ -1,0 +1,86 @@
+
+.index-feedback {
+	position: relative;
+	&__text {
+		font-style: italic;
+		font-size: 1.5rem;
+	}
+	&__title {
+		font-size: 1.875rem;
+		font-weight: bold;
+		font-style: italic;
+	}
+	&__img {
+		margin-left: -15px;
+
+	}
+	&__content {
+		padding-top: 3.375rem;
+		padding-bottom: 1.875rem;
+	}
+
+	&__form {
+		margin-top: 2.5rem;
+		margin-right: 4.375rem;
+		.index-feedback__text {
+			margin-bottom: 1.625rem;
+		}
+	}
+	&__btn {
+		background-color: #804500;
+		color: white;
+		font-style: italic;
+		padding: 1.125rem;
+		text-align: center;
+		width: 100%;
+		font-size: 1.125rem;
+		border-radius: 0;
+		&:hover:not(:disabled) {
+			background-color: lighten(#804500, 5%);
+		}
+		&:hover {
+			color: white;
+		}
+
+	}
+}
+
+
+.index-signature-itm {
+	background-color: white;
+	display: flex;
+	padding: 1.25rem 1.625rem 1.75rem 1.625rem;
+	box-shadow: 0px 0px 43px 0px rgba(175, 174, 174, 0.75); 
+	margin-bottom: 3.5rem;
+	min-height: 270px;
+	&__img {
+
+	}
+	&__content {
+		width: calc(83% - 20px);
+		margin-left: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	&__title {
+		font-size: 1rem;
+		margin-bottom: 1.5rem;
+		margin-top: 1rem;
+	}
+	&__text {
+		font-size: 0.875rem;
+		font-style: italic;
+		
+	}
+	&__btn {
+		margin-top: auto;
+	}
+}
+
+
+
+
+
+@import "index-mediaqueries";

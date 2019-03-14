@@ -1,0 +1,68 @@
+.underline {
+	text-decoration: underline;
+}
+
+._mt_86 {
+	margin-top: 5.375rem;
+}
+._mb_86 {
+	margin-bottom: 5.375rem;
+}
+
+._mb_66 {
+	margin-bottom: 4.125rem;
+}
+
+._pt_86 {
+	padding-top: 5.375rem;
+}
+
+._pb_70 {
+	padding-bottom: 4.375rem;
+}
+
+._r_negative_15 {
+	right: -15px;
+}
+
+.color-light-primary {
+	color: #804500;
+}
+
+.hover-effect {
+	position: relative;
+	&:before {
+		display: inline-block;
+		position: absolute;
+		content: " ";
+		width: 100%;
+		height: 100%;
+		left: 0; right: 0; top: 0; bottom: 0;
+		opacity: 0.4;
+		background: transparent;
+		transition: $animation-time-sm;
+		border: none;
+	}
+
+	&:hover {
+		&:before {
+			background-color: $primary;
+		}
+	}
+}
+
+._bg_beige {
+	background-color: #f7f5ee;
+}
+
+
+@media (max-width: $screen-width-sm) {
+	.hover-effect {
+
+		&:hover {
+			&:before {
+				background-color: transparent;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.aside {
+	&__element {
+		margin-bottom: 1.625rem;
+	}
+	&__title {
+		font-size: 1.125rem;
+		color: rgb(67, 37, 0);
+  		font-style: italic;
+  		background-image: url(../img/sprite.png);
+  		background-repeat: no-repeat;
+  		padding-left: 4.25rem;
+  		padding-top: 4px;
+  		padding-bottom: 4px;
+  		background-position: 0px -117px;
+  		margin-bottom: 1.25rem;
+	}
+}

@@ -1,0 +1,73 @@
+//ШРИФТЫ
+@import "fonts/fonts";
+
+
+//ИКОНКИ
+@import "icons/icons";
+
+//ОБЩИЕ СТИЛИ ВСЕХ СТРАНИЦ
+
+//типографика
+@import "typography/typography";
+
+//БЛОКИ 
+// логотип
+@import "blocks/logo/logo";
+// секция
+@import "blocks/section/section";
+// контент страницы
+@import "blocks/page/page";
+// кнопка
+@import "blocks/btn/btn";
+// навигация
+@import "blocks/navbar/navbar";
+// Главный баннер
+@import "blocks/main-banner/main-banner";
+// Карточка продукта
+@import "blocks/card-product/card-product";
+// форма
+@import "blocks/form/form";
+// Модальное окно
+@import "blocks/modal/modal";
+// Мобильное меню
+@import "blocks/mobile-menu/mobile-menu";
+// body
+@import "blocks/body/body";
+// хлебные крошки
+@import "blocks/breadcrumb/breadcrumb";
+// боковая панель
+@import "blocks/aside/aside";
+// Меню с дополнительной информацией
+@import "blocks/menu-info/menu-info";
+// Единица каталога
+@import "blocks/catalog-itm/catalog-itm";
+// часть контейнера
+@import "blocks/container-half/container-half";
+// карточка новостей
+@import "blocks/card-news/card-news";
+// подписка
+@import "blocks/subscription/subscription";
+// заказ
+@import "blocks/order-box/order-box";
+// выбор количества
+@import "blocks/quantity-selection/quantity-selection";
+
+// хедер
+@import "blocks/header/header";
+//футер
+@import "blocks/footer/footer";
+
+//УТИЛИТЫ
+@import "utilities/utilities";
+
+
+// slick
+@import "slick-carousel/slick-carousel";
+
+// паттерны
+@import "pattern/pattern";
+
+//СТРАНИЦЫ
+
+@import "pages/index/index";
+

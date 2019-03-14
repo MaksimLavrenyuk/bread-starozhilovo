@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Хлеб</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <script src="dist/js/critical.js"></script>
+</head>
+
+<body>
+    //= dist/template/header/header.html
+    <div class="main-banner" style="background-image: url(dist/img/main-banner-bg-img-1.jpg);">
+        <div class="main-banner__container">
+            <span class="main-banner__title">Производство хлеба <br> и хлебобулочных <br> изделий</span>
+            <img class="img-fluid main-banner__img" src="dist/img/bread-img.png" alt="хлеб">
+        </div>
+    </div>
+    <section class="section section_bg_wheat" style="background-image: url(dist/img/bg-wheat.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section__title">Наша продукция</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Хлеб</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Булки</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Торты</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Пироги</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Пироженные и кексы</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Хлебобулочные изделия</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Макаронные изделия</h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="#" class="catalog-itm _mb_86">
+                        <div class="catalog-itm__img">
+                            <img src="dist/img/catalog-itm-img.png" alt="Хлеб" class="img-fluid">
+                        </div>
+                        <h5 class="catalog-itm__title">Разное</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section index-feedback section_bg_yellow _pt_0 _pb_0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container-half">
+                         <div class="index-feedback__img container-half__bg d-none d-lg-block" style="background-image: url(dist/img/index-feedback-img.jpg);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="container-half float-lg-left _max-width_570">
+                        <div class="index-feedback__content">
+                            <h2 class="index-feedback__title">Приглашаем к сотрудничеству</h2>
+                            <span class="index-feedback__text">магазины, рестораны, отели</span>
+                            <form name="cooperation" action="dist/server/feedback.php" method="post" class="index-feedback__form form form_needs-validation">
+                                <p class="index-feedback__text">Оставьте заявку и мы подберем для Вас лучшее предложение</p>
+                                <div class="form-group">
+                                    <input name="name" type="text" class="form-control" id="consultationFeedback-name" placeholder="Ваше имя" required>
+                                    <div class="valid-message"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input name="tel" type="tel" class="form-control" id="consultationFeedback-tel" placeholder="Телефон" required>
+                                    <div class="valid-message"></div>
+                                </div>
+                                <button type="submit" class="btn index-feedback__btn" disabled>Отправить заявку</button>
+                            </form>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section__title">Популярные товары</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 _mb_66">
+                    //= dist/template/card-product/card-product.html
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section_bg_beige pt-0 pb-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container-half float-right _max-width_570 _pt_86 _pb_70">
+                        <h2 class="mb-5">ООО "Хлеб" - поставщик вкусных и качественных хлебобулочных изделий</h2>
+                        <p>
+                            Сегодня АО "Хлебокомбинат  – это предприятие с широчайшим ассортиментом, устоявшейся солидной репутацией. Вот уже более 85 лет как АО «Хлебокомбинат производит и поставляет свою продукцию в торговую сеть города Рязани.
+                        </p>
+                        <p>
+                            В сутки хлебокомбинат вырабатывает около 100 тонн хлебобулочных изделий и 5 тонн кондитерских изделий. Вся продукция предприятия вырабатывается только из высококачественных, натуральных продуктов. 
+                        </p>
+                        <p>
+                            Главные достоинства нашей продукции - это отличные вкусовые качества и аппетитный внешний вид. Вся наша продукция сертифицирована. За последние годы на предприятии произошли большие перемены. 
+                        </p>
+                        <p>
+                            Введено в строй новое современное оборудование известных зарубежных фирм "WERNER & PFLEIDERER", "SEEWER RONDO", "ILAPAK". Это позволило расширить ассортимент продукции и увеличить срок хранения за счёт современной упаковки, а также обеспечить её свежесть. «Пролетарец» продолжает трудиться и выпекать 24 часа в сутки столь нужный людям продукт как хлеб!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="container-half">
+                        <div class="container-half__bg _r_negative_15  d-none d-lg-block" style="background-image: url(dist/img/img.jpg);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section__title">Новости хлебзавода</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    //= dist/template/card-news/card-news.html
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    //= dist/template/card-news/card-news.html
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    //= dist/template/card-news/card-news.html
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    //= dist/template/card-news/card-news.html
+                </div>
+            </div>
+        </div>
+    </section>
+    //= dist/template/subscription/subscription.html
+    //= dist/template/footer/footer.html
+    //= dist/template/modal/modal.html
+    <script src="dist/js/main.js" async></script>
+</body>
+
+</html>

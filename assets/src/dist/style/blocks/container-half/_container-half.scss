@@ -1,0 +1,17 @@
+.container-half {
+	position: relative;
+
+	&._max-width_570 {
+		max-width: 570px;
+	}
+	&__bg {
+		position: relative;
+		height: 630px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@import "container-half-mediaqueries";

@@ -1,0 +1,8 @@
+.btn {
+	&-primary {
+		color: black;
+		background-color: #eac253;
+		border-color: #eac253;
+	}
+}
+@import "btn-mediaqueries";

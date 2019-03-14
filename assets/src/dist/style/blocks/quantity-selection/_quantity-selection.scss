@@ -1,0 +1,44 @@
+.quantity-selection {
+	display: flex;
+	&__btn {
+		width: 25px;
+		height: 25px;
+		background-color: #432500;
+		border: 1px solid  #432500;
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		&_minus {
+			background-position: 1px -156px;
+		}
+		&_plus {
+			background-position: 4px -182px;
+		}
+
+		&:hover,
+		&:focus {
+			background-color: lighten(#432500, 20%);
+			border-color: lighten(#432500, 20%);
+		}
+
+		&:focus {
+			box-shadow: rgba(181, 118, 38, 0.5) 0px 0px 0px 0.2rem;
+		}
+
+	}
+	&__input {
+		border: 1px solid transparent;
+		font-size: 0.875rem;
+		color: rgb(67, 67, 67);
+  		font-style: italic;
+  		padding: 0rem 1rem;
+  		text-align: center;
+  		max-width: 60px;
+  		&:hover,
+  		&:focus {
+  			outline: none;
+  			border-color: #c69c6d;
+  			background-color: lighten( #c69c6d, 30%);
+  		}
+	}
+}
+

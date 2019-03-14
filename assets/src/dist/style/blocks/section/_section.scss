@@ -1,0 +1,39 @@
+.section {
+	padding-top: 4.25rem;
+	padding-bottom: 4.25rem;
+	&_bg_wheat {
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: 220px;
+	}
+
+	&_bg_yellow {
+		background-color: #eac253;
+	}
+
+	&._pt_0 {
+		padding-top: 0;
+	}
+
+	&._pb_0 {
+		padding-bottom: 0;
+	}
+
+	&__title {
+		color: #804500;
+		font-size: 2.25rem;
+		margin-bottom: 3.375rem;
+		font-style: italic;
+		text-align: center;
+		font-weight: normal;
+	}
+
+	&_bg_beige {
+		background-color: #f7f5ee;
+	}
+	
+}
+
+
+
+@import "section-mediaqueries";

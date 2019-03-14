@@ -1,0 +1,29 @@
+@media (max-width: $screen-width-lg) {
+    .order-box {
+
+        &__btn {
+
+            padding-left: 3.75rem;
+            padding-right: 3.75rem;
+
+        }
+    }
+}
+
+@media (max-width: $screen-width-md) {
+	.order-box {
+		margin-top: 2rem;
+    }
+}
+
+@media (max-width: $screen-width-xs) {
+    .order-box {
+
+        &__btn {
+
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+    }
+}

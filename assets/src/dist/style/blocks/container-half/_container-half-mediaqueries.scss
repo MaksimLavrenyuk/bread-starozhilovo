@@ -1,0 +1,9 @@
+@media (max-width: $screen-width-lg) {
+    .container-half {
+        position: relative;
+
+        &._max-width_570 {
+            max-width: none;
+        }
+    }
+}

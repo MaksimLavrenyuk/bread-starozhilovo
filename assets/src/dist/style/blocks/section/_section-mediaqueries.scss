@@ -1,0 +1,24 @@
+@media (max-width: 1600px) {
+	.section {
+		&_bg_wheat {
+			background-image: none !important;
+		}
+	}
+}
+@media (max-width: $screen-width-md) {
+	.section_p_big {
+		padding-top: 5.4375rem;
+    	padding-bottom: 4.21875rem;
+	}
+}
+
+@media (max-width: $screen-width-xs) {
+	.section {
+		padding-top: 2.25rem;
+		padding-bottom: 2.25rem;
+		&__title {
+			font-size: 1.5rem;
+			margin-bottom: 3rem;
+		}
+	}
+}
