@@ -7,8 +7,9 @@
 	&__tel {
 		font-weight: bold;
 		color: white;
-		font-size: 1rem;
+		font-size: 1.125rem;
 		letter-spacing: 1px;
+		margin-left: 0.5rem;
 		&:hover,
 		&:focus {
 			color: #eac253;
@@ -35,9 +36,10 @@
 
 	}
 	&__link {
+		font-size: 1.125rem;
 		color: white;
 		font-style: italic;
-		padding: 0.75rem 0.875rem;
+		padding: 0.75rem 0.5rem;
 		&:hover,
 		&:focus {
 			color: #eac253;

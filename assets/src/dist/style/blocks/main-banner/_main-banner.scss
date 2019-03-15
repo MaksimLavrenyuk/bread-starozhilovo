@@ -8,18 +8,20 @@
 	align-items: center;
 	justify-content: center;
 	&__title {
-		font-size: 3.5rem;
+		font-size: 4rem;
 		color: white;
 		font-style: italic;
-		margin-right: -150px;
-		margin-top: -140px;
 		letter-spacing: -0.12rem;
 		line-height: 1.1;
+		margin-top: -200px;
+		margin-right: -200px;
+		
 	}
 	&__container {
-		max-width: 1100px;
+		max-width: 1200px;
 		display: flex;
 		align-items: center;
+		position: relative;
 	}
 	&__img {
 		margin-top: 150px;
